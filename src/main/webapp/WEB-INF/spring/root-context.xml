@@ -15,11 +15,11 @@
     <!-- 오라클 접속 -->	
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
-  		<property name="url" value="jdbc:oracle:thin:@localhost:1522/orcl"/>
+  		<property name="url" value="jdbc:oracle:thin:@localhost:1522:orcl"/>
   		<!-- 오라클 사용자 이름 -->
-  		<property name="username" value="LTIAM"/>
+  		<property name="username" value="ltfree"/>
   		<!-- 오라클 사용자 비밀번호 -->
-  		<property name="password" value="LTIAM2018"/>
+  		<property name="password" value="ltfree2023"/>
   	</bean>
 	<!-- Mybatis 연동 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
