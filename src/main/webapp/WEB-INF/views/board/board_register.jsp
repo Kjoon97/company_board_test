@@ -10,12 +10,12 @@
 <h1>
 	게시물 등록   
 </h1>
-<form name="form1" method="post" action="">
+<form name="form1" method="post" action="board/register">
 	<div>
 		제목<input name="title" id="title" size="80" placeholder="제목을 입력해주세요">
 	</div>
 	<div>
-		내용<textarea name="content" id="content" rows ="4" cols= "8" size="80" placeholder="내용을 입력해주세요">
+		내용<input name="title" id="title" size="80" placeholder="내용을 입력해주세요">
 	</div>
 	<div>
 		이름
